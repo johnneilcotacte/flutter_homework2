@@ -10,7 +10,6 @@ class RouteGenerator {
   static const String editblogRoute = '/blog/edit';
   static const String viewblogRoute = '/blog/view';
   static const String graphqlRoute = '/graphql';
-  static const String bonusRoute = '/bonus';
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {

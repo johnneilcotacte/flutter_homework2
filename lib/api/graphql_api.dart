@@ -11,12 +11,6 @@ class CharactersGraphQL {
   String _getCharacters = r'''
   query GetCharacters($page: Int){
     characters(page: $page) {
-      info {
-        count
-        pages
-        next
-        prev
-      }
       results {
         id
         name

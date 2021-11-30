@@ -5,10 +5,10 @@ import 'package:new_flutter_assignment/modules/blog/screens/expanded_view_screen
 import 'package:new_flutter_assignment/modules/graphql/screen/graphql_characters.dart';
 
 class RouteGenerator {
-  static const String blogRoute = '/blogs/home';
-  static const String composeblogRoute = '/blogs/compose';
-  static const String editblogRoute = '/blogs/edit';
-  static const String viewblogRoute = '/blogs/view';
+  static const String blogRoute = '/blog';
+  static const String composeblogRoute = '/blog/compose';
+  static const String editblogRoute = '/blog/edit';
+  static const String viewblogRoute = '/blog/view';
   static const String graphqlRoute = '/graphql';
   static const String bonusRoute = '/bonus';
 

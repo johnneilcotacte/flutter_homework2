@@ -47,8 +47,8 @@ class GraphqlPage extends HookWidget {
     }
 
     bool _isAllLoaded() {
-      if (_charactersProvider.characters.length ==
-          _charactersProvider.info['count']) {
+      int maxpage = _charactersProvider.info['count'] ?? 0;
+      if (_charactersProvider.characters.length == maxpage) {
         return true;
       }
       return false;
